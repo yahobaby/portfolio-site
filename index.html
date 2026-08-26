@@ -1,240 +1,639 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>ポートフォリオサイト</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"/>
+    <title>金 兌桓 | Portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+      name="description"
+      content="業務系システムの開発・改修・保守に携わるエンジニア、金兌桓のポートフォリオサイトです。"
+    >
+    <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
     <header id="header" class="header">
       <div class="header__logo">
-          <h1>
-            <a href="index.html">
-              <!-- 記載番号：1 -->
-              <span class="header__logo-title">金　兌桓</span>
-              <span class="header__logo-sub">Portfolio</span>
-            </a>
-          </h1>
-        </div>
-        <div class="header__hamburger">
-          <i></i>
-        </div>
-        <nav class="header__gnav">
-          <ul class="header__gnav-list">
-            <li class="header__gnav-item"><a href="#a-profile">PROFILE</a></li>
-            <li class="header__gnav-item"><a href="#a-skill">SKILL</a></li>
-            <li class="header__gnav-item"><a href="#a-works">WORKS</a></li>
-          </ul>
-        </nav>
+        <h1>
+          <a href="index.html">
+            <span class="header__logo-title">金　兌桓</span>
+            <span class="header__logo-sub">Portfolio</span>
+          </a>
+        </h1>
+      </div>
+
+      <div class="header__hamburger">
+        <i></i>
+      </div>
+
+      <nav class="header__gnav">
+        <ul class="header__gnav-list">
+          <li class="header__gnav-item">
+            <a href="#a-profile">PROFILE</a>
+          </li>
+
+          <li class="header__gnav-item">
+            <a href="#a-skill">SKILL</a>
+          </li>
+
+          <li class="header__gnav-item">
+            <a href="#a-experience">EXPERIENCE</a>
+          </li>
+
+          <li class="header__gnav-item">
+            <a href="#a-works">WORKS</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+
+
     <main>
+
+      <!-- =========================
+           FIRST VIEW
+      ========================== -->
       <div class="firstview firstview-bg">
         <div class="firstview__inner">
+
           <div class="firstview__main">
+
             <div class="firstview__main-pict obj-fit-img">
-              <!-- imagesに配置した、プロフィール画像のパスを記載する -->
-              <img src="./images/img.jpg">
+              <img src="./images/img.jpg" alt="金兌桓">
             </div>
+
             <div class="firstview__info">
               <h2>
-                <!-- 記載番号：2 -->
                 <span class="firstview__info-name">金　兌桓</span>
-                <!-- 記載番号：3 -->
                 <span class="firstview__info-name-sm">Kim Taehwan</span>
               </h2>
+
               <ul class="firstview__info-origin-list">
-                <!-- 記載番号：4 -->
-                <li class="firstview__info-origin-item">1989年4月29日生まれ</li>
-                <!-- 記載番号：5 -->
-                <li class="firstview__info-origin-item">京都・大阪府出身</li>
+                <li class="firstview__info-origin-item">
+                  1989年4月29日生まれ
+                </li>
+                <li class="firstview__info-origin-item">
+                  京都・大阪府出身
+                </li>
               </ul>
+
               <ul class="firstview__info-account-list">
+
                 <li class="firstview__info-account-item">
-                  <!-- 記載番号：6 -->
-                  <a href="https://qiita.com/hellotechcamp" target="_blank">
-                    <img src="./images/icon-firstview-info-qiita-white.svg" class="firstview__info-account-pict">
-                    <span  class="firstview__info-account-name">Qiita</span>
+                  <a
+                    href="https://qiita.com/hellotechcamp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./images/icon-firstview-info-qiita-white.svg"
+                      class="firstview__info-account-pict"
+                      alt="Qiita"
+                    >
+                    <span class="firstview__info-account-name">
+                      Qiita
+                    </span>
                   </a>
                 </li>
+
                 <li class="firstview__info-account-item">
-                  <!-- 記載番号：7 -->
-                  <a href="https://github.com/yahobaby/" target="_blank">
-                    <img src="./images/icon-firstview-info-github-white.svg" class="firstview__info-account-pict">
-                    <span  class="firstview__info-account-name">github</span>
+                  <a
+                    href="https://github.com/yahobaby/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./images/icon-firstview-info-github-white.svg"
+                      class="firstview__info-account-pict"
+                      alt="GitHub"
+                    >
+                    <span class="firstview__info-account-name">
+                      GitHub
+                    </span>
                   </a>
                 </li>
+
                 <li class="firstview__info-account-item">
-                  <!-- 記載番号：8 -->
-                  <a href="https://twitter.com/yahobaby1" target="_blank">
-                    <img src="./images/icon-firstview-info-twitter-white.svg" class="firstview__info-account-pict">
-                    <span  class="firstview__info-account-name">Twitter</span>
+                  <a
+                    href="https://twitter.com/yahobaby1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./images/icon-firstview-info-twitter-white.svg"
+                      class="firstview__info-account-pict"
+                      alt="X"
+                    >
+                    <span class="firstview__info-account-name">
+                      X
+                    </span>
                   </a>
                 </li>
-                <li class="firstview__info-account-item">
-                  <!-- 記載番号：9 -->
-                  <!-- <a href="__URL__" target="_blank">
-                    <img src="./images/icon-firstview-info-blog-white.svg" class="firstview__info-account-pict">
-                    <span  class="firstview__info-account-name">blog</span>
-                  </a> -->
-                </li>
+
               </ul>
             </div>
           </div>
+
+
+          <!-- POINT -->
           <div class="firstview__point">
             <div class="firstview__point-heading">
               <h3>POINT</h3>
             </div>
+
             <ul class="firstview__point-list">
-              <!-- 記載番号：10 -->
-              <li class="firstview__point-item">8年間、コンビニ現場とホテル宿泊施設で培った課題解決スキル×プログラミングスキル</li>
-              <li class="firstview__point-item">プログラミング学習時は、「時間と空間」の制約を乗り越える為、ダブル開発環境を構築</li>
-              <li class="firstview__point-item">オリジナルアプリとして、町内会で使われてる「アナログ回覧板」をデジタル化へ</li>
-              <li class="firstview__point-item">アウトプットとしてTwitterを1日1回発信する取り組みにこだわる</li>
+
+              <li class="firstview__point-item">
+                業務系システムの開発・改修・保守を経験し、
+                設計・実装・テスト・リリースまで幅広く担当
+              </li>
+
+              <li class="firstview__point-item">
+                VB.NET / Java / VBA / Oracle（SQL）を中心とした
+                業務システム開発経験
+              </li>
+
+              <li class="firstview__point-item">
+                小売・ホテル業界で培った業務理解力
+                × エンジニアとしての課題解決力
+              </li>
+
+              <li class="firstview__point-item">
+                今後はJavaを中心に開発経験をさらに深め、
+                設計・上流工程へキャリアを広げることを目指す
+              </li>
+
             </ul>
           </div>
+
         </div>
       </div>
+
+
+      <!-- =========================
+           PROFILE
+      ========================== -->
       <section id="a-profile" class="profile">
         <div class="section-inner">
+
           <div class="heading">
-            <h2>PROFILE<span>プロフィール</span></h2>
+            <h2>
+              PROFILE
+              <span>プロフィール</span>
+            </h2>
           </div>
+
           <div class="contents">
-            <!-- 記載番号：11 -->
             <div class="profile__text-area">
 
               <p>
-                【課題を解決する仕組みづくりのために知識を習得した経験】
+                <strong>
+                  【業務を理解し、仕組みで課題を解決できるエンジニアへ】
+                </strong>
               </p>
+
               <p>
-                前職では、アナログの事務作業が大量にあり、スタッフが本来のフロント業務のための時間が圧迫されていることが大きな課題でした。
+                現在、業務系システムのエンジニアとして、
+                システムの開発・改修・保守に携わっています。
               </p>
-              <p> 
-                この課題を解決するため、まずは現状の作業タスクを棚卸し、自分の力で解決できる領域はないか考えることにしました。
-              </p>
+
               <p>
-                すると、フルーツを各部屋に入れる為の手計算は、いくつかの決まった変数や公式が存在しており、計算や書き写しのような単純作業であり<b><font color=red>自動化</font></b>出来るのではないかと仮説を立てました。
+                VB.NET、Java、Oracle、Access VBAなどを使用し、
+                既存システムの調査、影響範囲の確認、
+                設計、実装、テスト、リリースまで、
+                幅広い工程を経験してきました。
               </p>
+
               <p>
-                <b><font color=red>自動化</font></b>の方法を調べたところ、<b><font color=red>ExcelVBA</font></b>の知識が必要ということが分かり、独学で知識を身に着けました。
+                私がエンジニアを目指したきっかけは、
+                ホテル勤務時代に取り組んだ業務改善です。
               </p>
+
               <p>
-                その知識をもとに、「単純作業でありながらも時間がかかっていること」に注目しながら、<b><font color=red>自動化</font></b>を試みました。
+                当時、フロントでは多くの手作業が発生しており、
+                スタッフが本来の接客業務に使える時間が
+                圧迫されていました。
               </p>
+
               <p>
-                結果として、<b><font color=red>ExcelVBA</font></b>を用いて毎日20分かかっていた「フルーツ部屋の色塗りやフルーツ個数計算作業」の一部を自動化することができ、<b><font color=red>約5秒</font></b>、ボタン一つ押せば作業が完了する仕組みづくりに成功しました。
+                そこで、毎日約20分かかっていた
+                客室ごとのフルーツ数の計算や
+                一覧表への色付け作業に着目しました。
               </p>
+
               <p>
-                また、職場のフロントメンバーも、本来のフロント業務（電話対応、メールの受送信、客室チェック、料金調整、プラン管理」にその時間が充てられるようになりました。
+                「決められたルールに基づく作業であれば、
+                システム化できるのではないか」と考え、
+                <strong>Excel VBA</strong>を独学で習得しました。
               </p>
+
               <p>
-                当時の上司からは「その着眼点や創作性に取り組む姿勢は素晴らしい」と称賛いただき、他のメンバーからも「見てすぐわかるので、とても助かってます。」と感謝の言葉をもらいました。
+                その結果、これまで約20分かかっていた作業を、
+                ボタン操作によって
+                <strong>数秒で完了できる仕組み</strong>
+                に改善することができました。
               </p>
+
               <p>
-                今後も、「その困りごとは仕組みで解決できないのか？」という視点を大切にし、自らの「課題解決を見出し、解決に向けて行動する姿勢」を発揮しつつ、「新しいライフスタイル」を提供していきたく存じます。
+                この経験から、
+                「現場の困りごとを理解し、
+                技術を使って仕組みとして解決すること」
+                に大きな魅力を感じ、
+                エンジニアとしてのキャリアをスタートしました。
+              </p>
+
+              <p>
+                現在の業務でも、
+                単に依頼された修正を行うだけではなく、
+                「なぜこの処理が必要なのか」
+                「どこまで影響するのか」
+                「利用者にとって分かりやすい仕組みか」
+                まで考えることを大切にしています。
+              </p>
+
+              <p>
+                今後はこれまでの開発経験を土台として、
+                Javaを中心とした開発力をさらに高め、
+                設計・実装から将来的には要件定義まで
+                対応できるエンジニアを目指しています。
               </p>
 
             </div>
           </div>
         </div>
       </section>
+
+
+      <!-- =========================
+           SKILL
+      ========================== -->
       <section id="a-skill" class="skill">
         <div class="section-inner">
+
           <div class="heading">
-            <h2>SKILL<span>スキル</span></h2>
+            <h2>
+              SKILL
+              <span>スキル</span>
+            </h2>
           </div>
+
           <div class="contents">
+
             <ul class="skill__list">
-              <!-- 記載番号：12 -->
+
+              <!-- VB.NET / Java -->
               <li class="skill__item">
-                <h3>コーディング</h3>
-                <h4>HTML / CSS</h4>
-                <!-- <p>補足事項がある場合は、ここにp要素を用いて記載します。</p> -->
-              </li>
-              <!-- 記載番号：13 -->
-              <li class="skill__item">
-                <h3>フロントエンド</h3>
-                <h4>JavaScript / jQuery</h4>
-              </li>
-              <!-- 記載番号：14 -->
-              <li class="skill__item">
-                <h3>バックエンド</h3>
-                <h4>Ruby（Ruby on Rails）</h4>
-              </li>
-              <!-- 記載番号：15 -->
-              <li class="skill__item">
-                <h3>データベース・インフラ</h3>
-                <h4>MySQL / AWS / Heroku / Render </h4>
-              </li>
-              <!-- 記載番号：16 -->
-              <li class="skill__item">
-                <h3>その他</h3>
-                <h4>GitHub / Slack / Zoom</h4>
+                <h3>業務システム開発</h3>
+                <h4>VB.NET / Java</h4>
                 <p>
-                  こちらは開発等で使用しているツールです。
+                  業務系システムの開発・改修で使用。
+                  既存処理の調査、影響範囲確認、
+                  実装、テストなどを経験しています。
                 </p>
               </li>
+
+
+              <!-- VBA -->
+              <li class="skill__item">
+                <h3>業務ツール開発</h3>
+                <h4>Excel VBA / Access VBA</h4>
+                <p>
+                  業務効率化ツールの開発・改修、
+                  既存ツールの解析、
+                  業務ロジックの修正などを経験しています。
+                </p>
+              </li>
+
+
+              <!-- DB -->
+              <li class="skill__item">
+                <h3>データベース</h3>
+                <h4>Oracle / SQL / MySQL</h4>
+                <p>
+                  SQLを使用したデータ抽出、
+                  データ調査、原因分析、
+                  システム改修時のデータ確認などを経験しています。
+                </p>
+              </li>
+
+
+              <!-- REPORT / JOB -->
+              <li class="skill__item">
+                <h3>帳票・運用</h3>
+                <h4>Crystal Reports / JP1</h4>
+                <p>
+                  業務システムの帳票改修や、
+                  運用・リリース関連業務で使用しています。
+                </p>
+              </li>
+
+
+              <!-- WEB -->
+              <li class="skill__item">
+                <h3>Web開発</h3>
+                <h4>
+                  HTML / CSS / JavaScript / jQuery
+                </h4>
+                <p>
+                  個人開発およびWebアプリケーション制作で使用。
+                </p>
+              </li>
+
+
+              <!-- RUBY -->
+              <li class="skill__item">
+                <h3>個人開発</h3>
+                <h4>Ruby / Ruby on Rails</h4>
+                <p>
+                  プログラミングスクールおよび個人開発で使用。
+                  Ruby on Railsを利用した
+                  Webアプリケーションを制作しました。
+                </p>
+              </li>
+
+
+              <!-- INFRA / TOOL -->
+              <li class="skill__item">
+                <h3>その他</h3>
+                <h4>
+                  GitHub / AWS / Render / Slack
+                </h4>
+                <p>
+                  個人開発でのソースコード管理、
+                  デプロイ、コミュニケーションなどで使用しています。
+                </p>
+              </li>
+
             </ul>
+
           </div>
-          <!-- 記載番号：17 -->
+
+
           <div class="skill__text-area">
             <p>
-              2022年よりプログラミングスクールでRuby on Railsを中心に学習を開始しました。
-              <br>
-              現在のスキル感について詳細は以下の制作実績をご覧ください。
-              <br>
-              各領域を比較すると特に「ユーザーとパソコンの接点」である「フロントエンドの開発」や興味があり、現在はJavaScriptを中心に学習を進めてます。
+              現在は業務系システムの開発・改修・保守を中心に、
+              VB.NET、Java、Oracle、VBAなどを使用しています。
+              <br><br>
+              今後は特にJavaのスキルをさらに深め、
+              Spring Bootなどを含むWeb・バックエンド開発にも
+              経験を広げていきたいと考えています。
             </p>
           </div>
+
         </div>
       </section>
+
+
+      <!-- =========================
+           EXPERIENCE
+      ========================== -->
+      <section id="a-experience" class="profile">
+        <div class="section-inner">
+
+          <div class="heading">
+            <h2>
+              EXPERIENCE
+              <span>実務経験</span>
+            </h2>
+          </div>
+
+          <div class="contents">
+
+            <div class="profile__text-area">
+
+              <p>
+                <strong>
+                  【業務系システムの開発・改修・保守】
+                </strong>
+              </p>
+
+              <p>
+                業務系システムにおいて、
+                開発・改修・保守を担当しています。
+              </p>
+
+              <p>
+                主に以下の工程を経験しています。
+              </p>
+
+              <ul>
+                <li>既存システム・ソースコードの調査</li>
+                <li>影響範囲の確認</li>
+                <li>設計・修正方針の検討</li>
+                <li>プログラム実装</li>
+                <li>SQLを使用したデータ調査・原因分析</li>
+                <li>単体テスト・結合テスト</li>
+                <li>帳票の開発・改修</li>
+                <li>リリース対応</li>
+                <li>手順書・関連資料の作成</li>
+              </ul>
+
+              <p>
+                また、業務で使用するツールについて、
+                設計・開発・テストまで一連の工程を
+                担当した経験もあります。
+              </p>
+
+              <p>
+                実装だけではなく、
+                既存仕様や業務ロジックを理解したうえで、
+                変更による影響範囲を確認しながら
+                安全に改修することを意識しています。
+              </p>
+
+              <br>
+
+              <p>
+                <strong>
+                  【今後のキャリア】
+                </strong>
+              </p>
+
+              <p>
+                これまでの開発経験を土台として、
+                今後はJavaを中心とした開発案件に
+                さらに多く携わりたいと考えています。
+              </p>
+
+              <p>
+                まずは、
+                基本設計・詳細設計・実装・テストまで
+                一貫して対応できるエンジニアになることが目標です。
+              </p>
+
+              <p>
+                将来的には要件定義などの上流工程にも経験を広げ、
+                技術だけではなく業務そのものを理解したうえで、
+                システムによる課題解決を提案できる
+                SEを目指しています。
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <!-- =========================
+           WORKS
+      ========================== -->
       <section id="a-works" class="works">
         <div class="section-inner">
+
           <div class="heading">
-            <h2>WORKS<span>実績</span></h2>
+            <h2>
+              WORKS
+              <span>個人開発</span>
+            </h2>
           </div>
+
+          <div class="skill__text-area">
+            <p>
+              エンジニアとしてのキャリアをスタートする前から、
+              プログラミング学習のアウトプットとして
+              Webアプリケーションを制作してきました。
+              <br>
+              現在の実務経験とは別に、
+              自ら課題を考え、形にした個人開発の実績として
+              掲載しています。
+            </p>
+          </div>
+
           <div class="contents">
+
             <ul class="works__list">
+
+              <!-- FURIMA -->
               <li class="works__item">
+
                 <div class="works__item-pict">
-                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
-                  <a href="https://furima-38184.onrender.com/" style="background-image:url('./images/work/01/furima.jpg');"></a>
+                  <a
+                    href="https://furima-38184.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="background-image:url('./images/work/01/furima.jpg');"
+                  ></a>
                 </div>
+
                 <div class="works__item-text-block">
-                  <!-- 記載番号：18 -->
-                  <h3>FURIMA（フリマアプリ）</h3>
-                  <!-- 記載番号：19 -->
-                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Render / Visual Studio Code </p>
+
+                  <h3>
+                    FURIMA（フリマアプリ）
+                  </h3>
+
+                  <p>
+                    Ruby / Ruby on Rails / MySQL /
+                    GitHub / Render / Visual Studio Code
+                  </p>
+
+                  <p>
+                    商品の出品・購入など、
+                    フリーマーケットサービスを想定した
+                    Webアプリケーションです。
+                  </p>
+
                 </div>
+
                 <div class="works__item-btn-block">
-                  <a href="works/01.html" class="button">More</a>
+                  <a
+                    href="works/01.html"
+                    class="button"
+                  >
+                    More
+                  </a>
                 </div>
+
               </li>
+
+
+              <!-- グルグル -->
               <li class="works__item">
+
                 <div class="works__item-pict">
-                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
-                  <a href="http://35.78.31.106:3000/" style="background-image:url('./images/work/02/guriguri.jpg');"></a>
+                  <a
+                    href="http://35.78.31.106:3000/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="background-image:url('./images/work/02/guriguri.jpg');"
+                  ></a>
                 </div>
+
                 <div class="works__item-text-block">
-                  <!-- 記載番号：20 -->
-                  <h3>グルグル（お知らせ情報共有アプリ）</h3>
-                  <!-- 記載番号：21 -->
-                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Visual Studio Code / AWS </p>
+
+                  <h3>
+                    グルグル（お知らせ情報共有アプリ）
+                  </h3>
+
+                  <p>
+                    Ruby / Ruby on Rails / MySQL /
+                    GitHub / AWS / Visual Studio Code
+                  </p>
+
+                  <p>
+                    町内会などで使用されている
+                    「紙の回覧板」をデジタル化することを
+                    コンセプトに制作した
+                    オリジナルWebアプリケーションです。
+                  </p>
+
+                  <p>
+                    身近な課題を発見し、
+                    システムによって解決するという
+                    自分自身のエンジニアとしての考え方を
+                    形にした作品です。
+                  </p>
+
                 </div>
+
                 <div class="works__item-btn-block">
-                  <a href="works/02.html" class="button">More</a>
+                  <a
+                    href="works/02.html"
+                    class="button"
+                  >
+                    More
+                  </a>
                 </div>
+
               </li>
+
             </ul>
+
           </div>
         </div>
       </section>
+
     </main>
-    <!-- 記載番号：1 -->
-    <footer id="footer" class="footer"><p>&copy; Kim Taehwan</p></footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="js/ofi.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer id="footer" class="footer">
+      <p>&copy; Kim Taehwan</p>
+    </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js">
+    </script>
+
+    <script
+      type="text/javascript"
+      src="js/ofi.min.js">
+    </script>
+
+    <script
+      type="text/javascript"
+      src="js/script.js">
+    </script>
+
   </body>
 </html>
